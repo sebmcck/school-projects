@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A single-page engineering design portfolio featuring Praxis I and Praxis II."
+    />
+    <title>Student Engineer Design Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <div class="container nav-shell">
+          <a class="brand" href="#hero">Student Engineer Design Portfolio</a>
+          <nav class="site-nav" aria-label="Section navigation">
+            <a href="#position">Position in Context</a>
+            <a href="#projects">Design Projects</a>
+            <a href="#references">References</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section id="hero" class="section hero">
+          <div class="container hero__layout">
+            <div class="hero__content surface-card">
+              <p class="eyebrow">Sebastien McCown-Kobinger</p>
+              <h1>A record of how I frame, represent, and refine engineering design decisions.</h1>
+              <p class="hero__lede">
+                This portfolio presents my position to engineering design in context, two Praxis projects, and the design methods (CTMFs) that shaped them.
+              
+              </p>
+            </div>
+
+            <aside class="hero__aside surface-card">
+              <p class="eyebrow">Portfolio Scope</p>
+              
+              <ul class="hero__facts" aria-label="Portfolio scope">
+                <li>
+                  <strong>2 Projects</strong>
+                  <span>Praxis I and Praxis II only. Please note that I did not take CIV102 in first semester, therefore, I have not completed the bridge project yet.</span>
+                </li>
+                <li>
+                  <strong>9 CTMFs</strong>
+                  <span>Distributed between the BikePack Buddy (Praxis I) and COMETS (Praxis II).</span>
+                </li>
+                
+              </ul>
+            </aside>
+          </div>
+        </section>
+
+        <section id="position" class="section">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Position in Context</p>
+              <h2>How I currently understand engineering design</h2>
+              
+            </div>
+
+            <div class="position-feature">
+              <article class="surface-card position-statement">
+                <div class="position-statement__header">
+                  <p class="eyebrow">Design Position</p>
+                  
+                </div>
+
+                <div class="position-statement__body">
+                  <p>
+                    To me, engineering design is the applied science of developing stakeholder-centered solutions to identified opportunities. While I remain positioned on the methodical side of the design spectrum, my approach has evolved from a linear progression into a deliberate, strategic framework. I no longer view design as merely "following the cycle," but as a series of intentional negotiations between my core values of respect and open-mindedness, and the specific constraints of a project.
+                  </p>
+                  <br>
+                 
+                  <figure class="position-media__inline">
+                    <img
+                      class="position-media__inline-image"
+                      src="assets/ps.png"
+                      alt="Placeholder for a supporting position-in-context PNG"
+                    />
+                    <figcaption>
+                      Figure 1: A Value-to-CTMF diagram representing how each value and CTMF are related to each other.
+                    </figcaption>
+                  </figure>
+                  <br>
+                 
+                  <p>
+                    I believe that respect is the foundational requirement for design. This manifests as respect for the user through stakeholder analysis and respect for the team through psychological safety. Without a safe environment for critique, a team cannot effectively discuss complex problems. This approach additionally influences my use of modeling and prototyping to ground my justification in physical reality, ensuring that my mindset of "anything is possible" remains rooted in functional evidence.
+                  <br>
+                  <br>
+                    My practice has shifted from a "linear approach" toward a more strategic Divergence-to-Convergence workflow. Influenced by the FDCR framework, I now assess the opportunity and generate all potentially viable solutions to force myself into creativity. For instance, our team initially assumed the bike's frame was the only stable load-bearing point. However, through proxy testing, we discovered a technical "<i>aha</i>" moment: the front-pack position was less subject to destructive forces than other locations, despite being on a rotational axis. This data-driven converging process taught me that design is sometimes in a counter-intuitive debate with physics.
+                  <br>
+                  <br>
+                    To add upon my how my practice has changed, I recall a specific moment from Praxis II where my team and I were brainstorming attachment styles of our device to a screw. I believe this evolution is somehow shaped by my Austrian heritage and the cognitive structure of the German language. In German, the verb, or the action, is often placed at the very end of a sentence. While thinking to myself in German, I was in the middle of constructing a sentence concerning <i>anhängen</i> or “attach”, when suddenly the verb <i>halten</i> or “to hold” popped in my mind, which prompted me to think of the continuously variable attachment featured in COMETS, where the device snugly “holds” a screw in place, rather than “clamps” it, as the previous prototype did. This simple linguistic delay serves as a necessary reminder that it is important to allow ourselves such a delay when putting our creativity to work.
+                  <br>
+                  <br>
+                    Ultimately, my evolution is defined by increased intentionality. I have moved from an intuitive, “brute-force” process to a traceable one, where tools like Modeling and Prototyping are selected specifically to provide the required context. This portfolio is an assessment of that transition: how I have learned to embrace the <strong><em>strategic delay</em></strong> through my work on the BikePack Buddy and COMETS.
+
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Design Projects</p>
+              <h2>Connecting Praxis CTMFs to Real-World Projects</h2>
+              <p>
+                Each card opens into an expanded project view with respective CTMF sections.
+              </p>
+            </div>
+
+            <div class="projects-grid">
+              <article class="project-card surface-card" data-project="praxis1">
+                <span class="project-card__media media-frame" data-thumbnail-wrapper>
+                  <img class="media-frame__image" data-field="thumbnail" alt="" />
+                  <span class="media-frame__fallback">Add thumbnail</span>
+                </span>
+                <span class="project-card__body">
+                  <span class="project-card__eyebrow">Praxis I</span>
+                  <span class="project-card__title" data-field="title"></span>
+                  <span class="project-card__subtitle" data-field="subtitle"></span>
+                  <span class="project-card__actions">
+                    <span class="project-card__download" data-download-slot></span>
+                    <button class="button button--ghost project-card__action" type="button" data-open-project aria-haspopup="dialog" aria-controls="project-modal">
+                      Click to expand
+                    </button>
+                  </span>
+                </span>
+              </article>
+
+              <article class="project-card surface-card" data-project="praxis2">
+                <span class="project-card__media media-frame" data-thumbnail-wrapper>
+                  <img class="media-frame__image" data-field="thumbnail" alt="" />
+                  <span class="media-frame__fallback">Add thumbnail</span>
+                </span>
+                <span class="project-card__body">
+                  <span class="project-card__eyebrow">Praxis II</span>
+                  <span class="project-card__title" data-field="title"></span>
+                  <span class="project-card__subtitle" data-field="subtitle"></span>
+                  <span class="project-card__actions">
+                    <span class="project-card__download" data-download-slot></span>
+                    <button class="button button--ghost project-card__action" type="button" data-open-project aria-haspopup="dialog" aria-controls="project-modal">
+                      Click to expand
+                    </button>
+                  </span>
+                </span>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="teammate-credits" class="section">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Teammate Credits</p>
+              <h2>A Thank You Card from Toronto</h2>
+              <p>
+                Engineering design is not possible alone. Praxis reminds us of this and keeps our social skills sharp through it all.
+              </p>
+            </div>
+
+            <div id="teammate-credit-groups" class="reference-groups teammate-credit-groups"></div>
+          </div>
+        </section>
+
+        <section id="references" class="section">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">References</p>
+              
+            </div>
+
+            <div id="reference-groups" class="reference-groups reference-groups--full"></div>
+          </div>
+        </section>
+
+      </main>
+
+    </div>
+
+    <div id="project-modal" class="modal" hidden aria-hidden="true">
+      <div class="modal__backdrop" data-close-modal></div>
+
+      <div
+        class="modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+        aria-describedby="modal-subtitle"
+        tabindex="-1"
+      >
+        <button class="modal__close" type="button" aria-label="Close project details" data-close-modal>
+          Close
+        </button>
+
+        <div class="modal__content">
+          <header class="modal__header">
+            <p id="modal-eyebrow" class="eyebrow"></p>
+            <h2 id="modal-title"></h2>
+            <p id="modal-subtitle" class="project-card__subtitle"></p>
+          </header>
+
+          <div class="project-card__tabs" id="modal-ctmf-tabs"></div>
+
+          <section class="project-card__panel" aria-live="polite">
+            <div class="project-card__panel-copy">
+              <h3 id="modal-ctmf-heading"></h3>
+              <div id="modal-ctmf-body"></div>
+            </div>
+            <div class="project-card__images" id="modal-ctmf-images"></div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <noscript>
+      <div class="noscript-note">JavaScript is required to open project views and switch CTMF sections.</div>
+    </noscript>
+
+    <script src="script.js"></script>
+  </body>
+</html>
